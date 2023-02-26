@@ -1,0 +1,21 @@
+{
+  "name": "dashcam-blockchain",
+  "version": "1.0.0",
+  "description": "This is an Simple application that sends videos to IPFS and Stores data hash in Smart Contract.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "IPFS",
+    "Blockchain",
+    "DashCam"
+  ],
+  "author": "Navin3d",
+  "license": "ISC",
+  "dependencies": {
+    "ipfs-http-client": "56.0.1",
+    "uuid": "^9.0.0",
+    "web3": "^1.8.2"
+  }
+}
