@@ -29,7 +29,7 @@ const execute = async () => {
         gas: '1000000'
     });
 
-    let data = `${mapId}, ${response.path}, ${response.size}, ${new Date()}, ${address[0]} \n`;
+    let data = `${mapId}, ${response.path}, ${response.size}, ${new Date()}, ${address[0]}, http://localhost:8081/ipfs/${response.path} \n`;
     writeDataToCSV(data);
 }
 
